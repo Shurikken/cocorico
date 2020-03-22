@@ -2,8 +2,13 @@
 title: First Post
 date: 2019-05-13
 Featured_image: "../../porsches.jpg"
-author: Valentin
-authorimage: "../../bean.jpg"
+title: Post No. 1
+authors:
+  - Robert
+tags:
+  - cake
+  - chocolate
+
 description: " description in frontmatter it's so cool "
 ---
 

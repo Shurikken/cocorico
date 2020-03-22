@@ -1,0 +1,29 @@
+<script src="https://kit.fontawesome.com/479346cc73.js" crossorigin="anonymous"></script>
+
+<aside>
+
+    <div class=" flex w-3/4  h-48 mx-auto mt-20 mb-16 p-5">
+        <div class=" relative flex"><img
+                src='{{ with .Params.authorimage }}{{ . }}{{ else }}{{ .Site.Params.authorimage }}{{ end }}'
+                alt="Perfil" class="my-auto h-32 w-32 border-gray-500 rounded-full border-4">
+
+            <p class="block flex text-justify static text-xs sm:text-sm lg:text-lg my-auto p-3">
+                {{- range .Params.authors }}
+                {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                <figure>
+                    <img src="{{ .Params.photo }}" alt="" />
+                    <figcaption>
+                        <a href="{{ .Permalink }}">{{ .Params.name }}</a>
+                    </figcaption>
+                </figure>
+                {{ end }}
+                {{ end }}
+
+            </p>
+            <div class="absolute  bottom-0 right-0  inline-flex"><a class="mx-2" href="#"><i
+                        class="fab fa-github"></i></a>
+                <a class="mx-2" href="#"><i class="far fa-envelope"></i></a></div>
+        </div>
+
+    </div>
+</aside>

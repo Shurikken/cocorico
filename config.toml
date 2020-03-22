@@ -23,3 +23,14 @@ pygmentsStyle = "vs"
     github_repo = ""
     github_banner = true
     favicon = "favicon.ico"
+
+
+
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"
+  
+  
+ # disableKinds = ["taxonomyTerm"] 
