@@ -1,0 +1,22 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "coco"
+
+author = "Valentin chevoleau"
+copyright = "Copyright © 2020, Valentin chevoleau, all rights reserved."
+
+# Code higlighting settings
+pygmentsCodefences = true
+pygmentsStyle = "vs"
+
+[params]
+    name = "Digital Funéraire"
+    description = "Soutien au secteur funéraire 2.0"
+    author = "Digital Funéraire"
+    authorimage = "../../imageauthor.jpg"
+    Featured_image= "../../bean.jpg"
+    github_user = "Valentinche"
+    github_repo = ""
+    github_banner = true
+    favicon = "favicon.ico"
