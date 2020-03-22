@@ -2,9 +2,12 @@ baseURL = "http://example.org/"
 languageCode = "fr-fr"
 title = "Hugo cocorico"
 theme = "coco"
-
 author = "Shurikken"
 copyright = "Copyright © 2020, Shurrikken, all rights reserved."
+summaryLength =  "20"
+
+
+
 
 # Code higlighting settings
 pygmentsCodefences = true
