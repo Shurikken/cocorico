@@ -1,10 +1,10 @@
 {
     "name": "coco",
     "version": "0.1.1",
-    "description": "Starter files for a Hugo theme with Tailwindcss",
+    "description": "Hugo theme with Tailwindcss",
     "main": "index.js",
-    "repository": "https://github.com/dirkolbrich/hugo-theme-tailwindcss-starter",
-    "author": "dirkolbrich <github@dirkolbrich.de>",
+    "repository": "https://https://github.com/Shurikken/cocorico",
+    "author": "Shurikken",
     "license": "MIT",
     "scripts": {
         "start": "hugo --gc"
