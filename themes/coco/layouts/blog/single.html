@@ -1,9 +1,18 @@
 {{ define "main" }}
-<article class="">
-    <h1 class="">{{ .Title }}</h1>
-    {{ .Content }}
+<article class=" md:w-3/4 lg:w-2/4 sm:w-3/4 md:mx-auto sm:mx-auto mx-12 mt-40">
+    <div class="bg-cover bg-center  mx-auto p-2"
+        style="background-image: url('{{with .Params.featured_image}}{{.}}{{else}}{{ .Site.Params.featured_image }}{{end}}');">
+        <div class="   w-2/4 p-8 my-32 mx-auto " style="background-color: rgba(255, 255, 255, 0.5);">
+            <h1 class=" text-center md:text-4xl text-2xl text-blue-800  ">{{ .Title }}
+            </h1>
+        </div>
+    </div>
+
+
+    <div class=" text-justify text-gray-700 text-lg mt-20 "> {{ .Content }}</div>
 </article>
 
+<hr class=" md:w-3/4 lg:w-2/4 sm:w-3/4 mx-auto mt-12">
 
 {{- partial "signature.html" . -}}
 

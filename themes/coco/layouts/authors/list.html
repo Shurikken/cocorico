@@ -39,12 +39,13 @@
 <hr>
 
 {{ range .Data.Pages }}
-<div class="md:flex shadow-xl m-8 p-6 mb-16">
+<div class="md:flex sm:w-2/4 shadow-xl mx-auto p-6 mt-20 mb-16">
     <!-- top image carte -->
-    <img class=" mx-auto my-auto rounded-full h-48 w-48 "
+    <img class=" mx-auto my-auto rounded-full h-48 w-48 border-8 border-blue-800 "
         src="{{with .Params.featured_image}}{{.}}{{else}}{{ .Site.Params.featured_image }}{{end}}" alt="">
     <div class=" my-auto p-5">
-        <h3 class=" md:text-left text-center  text-3xl"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <h3 class=" md:text-left text-center text-blue-900 text-3xl mb-2"><a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h3>
         <h4 class=" md:text-left text-center  text-2xl"> Description </h4>
         <p class=" md:text-left text-center text-xl mb-4 ">
             {{ with .Params.description }}
