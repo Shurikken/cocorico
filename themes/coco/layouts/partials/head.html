@@ -14,12 +14,5 @@
 {{ end }}
 {{ hugo.Generator }}
 
-
-
-
-{{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js")| minify | fingerprint  }}
-
-
-
-<link rel="stylesheet" type="text/css" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}"
-    media='all' />
+{{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/dev/postcss.config.js") }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
