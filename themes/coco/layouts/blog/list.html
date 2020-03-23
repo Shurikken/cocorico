@@ -22,14 +22,14 @@
                     class="block text-lg font-bold text-white">{{with .Params.author}}{{.}}{{else}}{{ .Site.Params.author }}{{end}}</span>
 
             </div>
-            <p class=" text-right -mt-4 text-xs"> <i class=" far fa-calendar-alt"></i>
+            <p class=" text-right -mt-4 text-xs"> <i class=" mr-2 far fa-calendar-alt"></i>
 
                 <!-- date en Fr via data/mois.yaml merci https://www.christopheducamp.com/ ;) -->
                 <time class="post-date dt-published"
                     datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}'>{{ .Date.Day }}
                     {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}</time> </p>
 
-            <p class=" text-right  text-xs"> <i class=" fas fa-clock"></i>
+            <p class=" text-right  text-xs"> <i class=" mr-2 fas fa-clock"></i>
                 {{.ReadingTime }} minutes
             </p>
             <h2 class=" font-bold mt-4 mb-1 text-center"> <a href="{{ .Permalink }}">{{ .Title }}</a> </h2>
