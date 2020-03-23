@@ -13,6 +13,6 @@
 <meta name="author" content="{{ .Params.Author}}" />
 {{ end }}
 {{ hugo.Generator }}
-
+<script src="https://kit.fontawesome.com/479346cc73.js" crossorigin="anonymous"></script>
 {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/dev/postcss.config.js") }}
 <link rel="stylesheet" href="{{ $style.Permalink }}">
