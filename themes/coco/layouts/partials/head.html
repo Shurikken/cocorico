@@ -17,7 +17,7 @@
 
 
 
-{{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") | minify | Fingerprint "sha512"  }}
+{{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js")| resources.Minify | resources.Fingerprint "sha512" }}
 
 
 
