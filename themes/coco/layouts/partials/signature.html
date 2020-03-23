@@ -1,30 +1,28 @@
-<aside>
+{{ range .Params.authors }}
+<div class=" md:flex sm:w-2/4  sm:h-48 mx-auto  p-5">
 
-    <div class=" md:flex sm:w-2/4  sm:h-48 mx-auto mt-20 mb-40 p-5">
-        {{ range .Params.authors }}
 
-        {{with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+    {{with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
 
-        <div class="  md:flex  "><img
-                src="{{ with .Params.photo }}{{ . }}{{ else }}{{ .Site.Params.authorimage }}{{ end }}" alt="Perfil"
-                class="my-auto h-32 w-32 border-gray-500 mx-auto rounded-full border-4">
-            <div class="p-4">
+    <div class="  md:flex  "><img src="{{ with .Params.photo }}{{ . }}{{ else }}{{ .Site.Params.authorimage }}{{ end }}"
+            alt="Perfil" class="my-auto h-32 w-32 border-gray-500 mx-auto rounded-full border-4">
+        <div class="p-4">
 
 
 
-                <p class=" md:text-justify text-center    ">
-                    <a class=" " href="{{ .Permalink }}">{{if .Params.name }}{{.Params.name}}{{else}}{{ .Params.title }}
-                        {{end}}</a></p>
+            <p class=" md:text-justify text-center    ">
+                <a class=" " href="{{ .Permalink }}">{{if .Params.name }}{{.Params.name}}{{else}}{{ .Params.title }}
+                    {{end}}</a></p>
 
-                <p class=" text-justify">
-                    {{ if .Params.name  }}{{ .Content }}{{else}}{{ .Site.Params.Description }} {{end}}
-                    <a class="mx-2 " href="#"><i class="fab fa-github"></i></a>
-                    <a class="" href="mailto:{{ .Params.mail }}"><i class="far fa-envelope"></i></a>
-                </p>
-            </div>
-
+            <p class=" text-justify">
+                {{ if .Params.name  }}{{ .Content }}{{else}}{{ .Site.Params.Description }} {{end}}
+                <a class="mx-2 " href="#"><i class="fab fa-github"></i></a>
+                <a class="" href="mailto:{{ .Params.mail }}"><i class="far fa-envelope"></i></a>
+            </p>
         </div>
 
     </div>
-</aside> {{ end }}
+
+</div>
+{{ end }}
 {{ end }}

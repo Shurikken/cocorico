@@ -5,6 +5,7 @@ Featured_image: "../../porsches.jpg"
 title: Post No. 1
 authors:
   - Robert
+  - Valentin
 tags:
   - cake
   - chocolate
