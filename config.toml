@@ -1,5 +1,6 @@
 titlebaseURL = "/"
 languageCode = "fr-fr"
+DefaultContentLanguage = "fr"
 title = "Hugo cocorico"
 theme = "coco"
 author = "Shurikken"
