@@ -1,4 +1,4 @@
-titlebaseURL = "cocorico.netlify.com"
+titlebaseURL = "https://cocorico.netlify.com"
 languageCode = "fr-fr"
 DefaultContentLanguage = "fr"
 title = "Hugo cocorico"
