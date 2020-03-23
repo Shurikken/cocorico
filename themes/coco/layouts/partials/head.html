@@ -14,5 +14,6 @@
 {{ end }}
 {{ hugo.Generator }}
 <script src="https://kit.fontawesome.com/479346cc73.js" crossorigin="anonymous"></script>
-{{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/dev/postcss.config.js") }}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ end }}
