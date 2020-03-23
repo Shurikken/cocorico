@@ -3,7 +3,7 @@ date: 2019-05-13
 Featured_image: "../../bean.jpg"
 title: Post No.3
 authors:
-  - Robert
+  - valentin
 tags:
   - cake
   - chocolate
