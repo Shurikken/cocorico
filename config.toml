@@ -4,7 +4,7 @@ DefaultContentLanguage = "fr"
 title = "Hugo cocorico"
 theme = "coco"
 author = "Shurikken"
-copyright = "Copyright © 2020, Shurrikken, all rights reserved."
+copyright = "2020, Shurrikken, inspired by @budparr & @dirkolbrich"
 summaryLength =  "20"
 
 
