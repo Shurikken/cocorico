@@ -1,14 +1,13 @@
 ---
-date: 2019-05-13
-Featured_image: "../../bean.jpg"
-title: Post No.3
+title: 3e Post
+date: 2020-03-02
+Featured_image: "../../test.jpg"
+title: Post No. 3
 authors:
-  - valentin
+  - Valentin
 tags:
   - cake
   - chocolate
-
-description: " description in frontmatter it's so cool 3"
 ---
 
  Irure esse excepteur nostrud sit cillum nulla. Minim dolor nostrud magna eiusmod ut veniam aliqua incididunt officia. Adipisicing ad fugiat amet mollit culpa do laboris duis eiusmod. Culpa id dolore ullamco pariatur do qui labore mollit. Amet magna nulla aliqua amet pariatur laboris. Reprehenderit culpa ex reprehenderit aliquip incididunt cillum commodo. Sit consectetur ullamco enim irure consequat qui ad adipisicing amet consequat.

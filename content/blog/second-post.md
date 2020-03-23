@@ -1,8 +1,15 @@
 ---
-author: Valentin
-title: A second Post
+title: second post
+date: 2020-02-01
+Featured_image: "../../gopher-side_color.svg"
+title: post N2 hello hugo ! 
+authors:
+  - Robert
+tags:
+  - cake
+  - chocolate
 
-date: 2019-05-14
+description: " description du post n2  "
 ---
 
 loreAd veniam quis irure enim labore ipsum consequat ullamco ea id minim elit nulla fugiat. Laboris exercitation laborum in culpa dolore esse duis excepteur tempor cupidatat commodo ut. Sit mollit magna nostrud ea pariatur ea nisi occaecat id sit. Commodo aliquip enim sit et veniam commodo. Do pariatur tempor cupidatat enim quis est laboris et. Cillum officia commodo ullamco labore id. Eiusmod fugiat deserunt est aliqua ea eiusmod enim in officia in.

@@ -1,9 +1,15 @@
 ---
-title: "Quatriemepost"
-date: 2020-03-19T12:03:14+01:00
-draft: false
-Featured_image: "../../bean.jpg"
+title: First Post
+date: 2020-01-01
+Featured_image: "../../gopher-hero.svg"
+title: Post No. 4
+authors:
+  - Robert
+tags:
+  - cake
+  - chocolate
 
+description: " description du post n4  "
 ---
 
  Irure esse excepteur nostrud sit cillum nulla. Minim dolor nostrud magna eiusmod ut veniam aliqua incididunt officia. Adipisicing ad fugiat amet mollit culpa do laboris duis eiusmod. Culpa id dolore ullamco pariatur do qui labore mollit. Amet magna nulla aliqua amet pariatur laboris. Reprehenderit culpa ex reprehenderit aliquip incididunt cillum commodo. Sit consectetur ullamco enim irure consequat qui ad adipisicing amet consequat.
