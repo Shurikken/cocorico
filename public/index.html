@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang='fr-fr'><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hi, and welcome. - Hugo cocorico</title>
+
+
+
+<meta name="generator" content="Hugo 0.68.1" />
+
+
+
+
+<link rel="stylesheet" href="/css/styles.min.b7ef06b225bd115aae261406724f3ddf3fb1ff521c9e039398b6b42cdcb096f5.css">
+<body class=""><header class="w-full p-4">
+    
+    <nav class="flex items-center justify-between flex-wrap">
+        <a href="/" class="flex items-center text-gray-700 font-bold">
+            Hugo cocorico
+        </a>
+        <div class="block sm:hidden">
+            <button id="nav-open" class="flex items-center text-gray-500 hover:text-blue-500">
+                <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+            <button id="nav-close" class="hidden flex items-center text-gray-700 hover:text-blue-500">
+                <svg class="fill-current h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu Close</title>
+                    <polygon points="11 9 22 9 22 11 11 11 11 22 9 22 9 11 -2 11 -2 9 9 9 9 -2 11 -2"
+                        transform="rotate(45 10 10)" />
+                </svg>
+            </button>
+        </div>
+        <ul id="nav-menu" class="w-full flex-grow sm:flex items-center sm:w-auto hidden sm:block justify-end list-reset mt-2 sm:mt-0">
+            
+            <li>
+                <a href="/about/" class="inline-block text-gray-500 sm:px-2 hover:text-blue-400">About</a>
+            </li>
+            
+
+            
+            <li>
+                <a href="/blog/" class="inline-block text-gray-500 sm:px-2 hover:text-blue-400">Blogs</a>
+            </li>
+            
+        </ul>
+    </nav>
+</header><main class="">
+<article class="text-center text-gray-700">
+    <h1 class="font-serif font-thin text-5xl text-gray-500">Hi, and welcome.</h1>
+    <p>Live long and code.</p>
+
+</article>
+
+    </main><footer class="w-full text-center border-t border-gray-200 mt-20 p-4 pin-b text-xs text-gray-400">
+    <p>made with <a href="https://gohugo.io" class="underline hover:text-blue-400">Hugo</a> and <a
+            href="https://tailwindcss.com" class="underline hover:text-blue-400">TailwindCSS</a></p>
+</footer>
+
+<script src="https://kit.fontawesome.com/479346cc73.js" crossorigin="anonymous"></script><script>
+        
+        document.getElementById('nav-open').onclick = function () {
+            document.getElementById("nav-menu").classList.toggle("hidden");
+            document.getElementById("nav-open").classList.toggle("hidden");
+            document.getElementById("nav-close").classList.toggle("hidden");
+        }
+        document.getElementById('nav-close').onclick = function () {
+            document.getElementById("nav-menu").classList.toggle("hidden");
+            document.getElementById("nav-close").classList.toggle("hidden");
+            document.getElementById("nav-open").classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+
+</html>

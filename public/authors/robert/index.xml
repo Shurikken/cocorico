@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo cocorico</title>
+    <link>/authors/robert/</link>
+    <description>Recent content on Hugo cocorico</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <copyright>2020, Shurrikken, inspired by @budparr &amp; @dirkolbrich</copyright>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/authors/robert/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>post N2 hello hugo !</title>
+      <link>/blog/second-post/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/second-post/</guid>
+      <description>loreAd veniam quis irure enim labore ipsum consequat ullamco ea id minim elit nulla fugiat. Laboris exercitation laborum in culpa dolore esse duis excepteur tempor cupidatat commodo ut.</description>
+    </item>
+    
+    <item>
+      <title>Post No. 4</title>
+      <link>/blog/quatriemepost/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/quatriemepost/</guid>
+      <description>Irure esse excepteur nostrud sit cillum nulla. Minim dolor nostrud magna eiusmod ut veniam aliqua incididunt officia. Adipisicing ad fugiat amet mollit culpa do laboris duis eiusmod.</description>
+    </item>
+    
+    <item>
+      <title>Post No. 1</title>
+      <link>/blog/first-post/</link>
+      <pubDate>Mon, 13 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/first-post/</guid>
+      <description>Irure esse excepteur nostrud sit cillum nulla. Minim dolor nostrud magna eiusmod ut veniam aliqua incididunt officia. Adipisicing ad fugiat amet mollit culpa do laboris duis eiusmod.</description>
+    </item>
+    
+  </channel>
+</rss>
