@@ -9,7 +9,7 @@ module.exports = {
         require('@fullhuman/postcss-purgecss')({
             content: [
                 themeDir + 'layouts/**/*.html',
-                themeDir + 'exampleSite/content/**/*.html',
+                themeDir + '/content/**/*.html',
                 'layouts/**/*.html',
                 'content/**/*.html',
             ],
