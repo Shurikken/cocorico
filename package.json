@@ -1,0 +1,27 @@
+{
+    "name": "coco",
+    "version": "0.1.1",
+    "description": "Hugo theme with Tailwindcss",
+    "main": "index.js",
+    "repository": "https://https://github.com/Shurikken/cocorico",
+    "author": "Shurikken",
+    "license": "MIT",
+    "scripts": {
+        "start": "hugo --gc"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^2.1.0",
+        "autoprefixer": "^9.7.5",
+        "postcss": "^7.0.27",
+        "postcss-cli": "^7.1.0",
+        "postcss-import": "^12.0.1",
+        "tailwindcss": "^1.2.0"
+    },
+    "browserslist": [
+        "last 1 version",
+        "> 1%",
+        "maintained node versions",
+        "not dead"
+    ],
+    "dependencies": {}
+}
