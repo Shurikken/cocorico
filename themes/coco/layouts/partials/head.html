@@ -15,6 +15,7 @@
 {{ hugo.Generator }}
 
 
+
 {{ if .Site.IsServer }}
 
 {{ $style := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/dev/postcss.config.js") | fingerprint }}
