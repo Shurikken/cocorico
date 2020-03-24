@@ -35,3 +35,6 @@ pygmentsStyle = "vs"
   
   
  # disableKinds = ["taxonomyTerm"] 
+
+[build]
+  useResourceCacheWhen = "never"
