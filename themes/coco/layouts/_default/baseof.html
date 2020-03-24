@@ -3,11 +3,11 @@
 {{- partial "head.html" . -}}
 
 <body class="">
-    {{-"header.html" . -}}
+    {{- partial "header.html" . -}}
     <main class="">
         {{- block "main" . }}{{- end }}
     </main>
-    {{-  "footer.html" . -}}
+    {{- partial "footer.html" . -}}
 
     <script>
         //Javascript to toggle the nav-menu
